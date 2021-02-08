@@ -1,0 +1,57 @@
+body {
+  color: rgb(129, 11, 11);
+  background-image:url("pexels-pixabay-59989.jpg");
+  background-size:cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+button,
+label,
+ul {
+  width: 300px;
+  background: rgb(220, 233, 233);
+  color:black;
+  font-size: 24px;
+  margin: auto;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: rgb(199, 243, 39);
+}
+button {
+  background-color: rgb(213, 226, 228);
+}
+
+img {
+  width: 300px;
+  margin-bottom: 25px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+li:not(:last-child) {
+  padding: 10px;
+  border-bottom: solid 1px;
+}
